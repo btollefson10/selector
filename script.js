@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const wrappers = document.querySelectorAll('.image-wrapper');
         wrappers.forEach(wrapper => wrapper.classList.remove('selected'));
 
-        // Get and display 3 random images
-        let selectedImages = getRandomImages(images, 3);
+        // Get and display 4 random images
+        let selectedImages = getRandomImages(images, 4);
         displayImages(selectedImages);
 
         // Highlight selected images in the grid
