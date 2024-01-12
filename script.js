@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+7document.addEventListener('DOMContentLoaded', function() {
     const imageGrid = document.getElementById('imageGrid');
 
     // Initialize the grid with images
@@ -57,7 +57,7 @@ function highlightSelectedImages(selectedImages) {
 const images = [
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'ttps://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
