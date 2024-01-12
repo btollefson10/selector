@@ -56,15 +56,15 @@ function highlightSelectedImages(selectedImages) {
 
 const images = [
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    '/images/2.png',
-    '/images/3.png',
-    '/images/4.png',
-    '/images/5.png',
-    '/images/6.png',
-    '/images/7.png',
-    '/images/8.png',
-    '/images/9.png',
-    '/images/10.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'ttps://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     // ... add paths for all 10 images
 ];
 
