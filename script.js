@@ -55,7 +55,7 @@ function highlightSelectedImages(selectedImages) {
 
 
 const images = [
-    '/images/1.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
     '/images/2.png',
     '/images/3.png',
     '/images/4.png',
