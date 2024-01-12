@@ -71,7 +71,7 @@ const images = [
 function selectRandomImages() {
     const wrappers = document.querySelectorAll('.image-wrapper');
     wrappers.forEach(wrapper => wrapper.classList.remove('selected'));
-    let selectedIndexes = getRandomIndexes(wrappers.length, 3); // Select 3 random images
+    let selectedIndexes = getRandomIndexes(wrappers.length, 4); // Select 4 random images
 
     selectedIndexes.forEach(index => {
         wrappers[index].classList.add('selected');
