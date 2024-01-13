@@ -56,15 +56,15 @@ function highlightSelectedImages(selectedImages) {
 
 const images = [
     'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
-    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/End.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_9_Grand_Hall.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_9_Final_Scene.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_4_Knight_Princess.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_1_Festival.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_1_Kingdom.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_1_Knight_with_kids.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_1_Knight.png',
+    'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Scene_1_Princess.png',
     // ... add paths for all 10 images
 ];
 
