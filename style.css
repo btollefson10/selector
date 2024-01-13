@@ -28,7 +28,7 @@
 }
 
 .selected .check-overlay {
-    opacity: 0.3; /* Show checkmark for selected images */
+    opacity: 0.5; /* Show checkmark for selected images */
 }
 
 .selected svg {
