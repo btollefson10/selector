@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         col.innerHTML = `
             <div class="image-wrapper">
                 <img src="${src}" class="img-fluid" alt="Image ${index + 1}">
-                <div class="check-overlay"></div>
+                <div class="check-overlay">   
+ <img src="https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/check-circle-fill.svg" alt="Headline Image" class="headline-image">
+
+</div>
             </div>
         `;
         imageGrid.appendChild(col);
