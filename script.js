@@ -1,4 +1,4 @@
-7document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const imageGrid = document.getElementById('imageGrid');
 
     // Initialize the grid with images
