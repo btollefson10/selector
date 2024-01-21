@@ -6,16 +6,22 @@ function pushSelectedImagesMap(key){
     selectedImagesMap.set(key, imagesMap.get(key));
     if(selectedImagesMap.size >= 4){
         document.querySelector('#imageGrid').classList.add('selector-full');
+        document.querySelector('#randomImagesButton').disabled = true;
+        document.querySelector('#scratchOff').disabled = false;
     }
+    imagePaths = Array.from(selectedImagesMap.values());
+    highlightImages(imagePaths);
+    displayImages(imagePaths);
 }
 
 function removeFromSelectedImagesMap(key) {
     selectedImagesMap.delete(key);
     if(selectedImagesMap.size<4){
         document.querySelector('#imageGrid').classList.remove('selector-full');
+        document.querySelector('#randomImagesButton').disabled = false;
+        document.querySelector('#scratchOff').disabled = true;
     }
 }
-
 function pushCreatedItems(key, item){
     createdItems.set(key, item);
     //update the sidebar to add the scratchoff images
