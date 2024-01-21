@@ -1,11 +1,10 @@
-.image-container {
+/*.image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-}
+}*/
 .image-container img {
     width: 100%;
-    border: 2px solid black;
 }
 .lottery-button {
     margin-top: 20px;
@@ -31,4 +30,25 @@
 
 .selected .check-overlay {
     opacity: 1;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+#imageGrid .image-wrapper:hover {
+    cursor: pointer;
+}
+
+#imageGrid.selector-full .image-wrapper:hover{
+    cursor: not-allowed;
+}
+
+.selected:hover{
+    cursor: pointer !important;
 }
