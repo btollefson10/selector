@@ -8,17 +8,46 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="image-container" id="imageContainer">
-        <!-- Image placeholders -->
-    </div>
-    <div class="container my-4">
-        <div class="row mb-3">
-            <div class="col">
-                <button id="lotteryButton" class="btn btn-primary">Select Random Images</button>
+    <div class="container-fluid">
+    <div class="image-container row">
+        <div class="col-md-11">
+        <div id="imageContainer" class="row">
+            <div class="col-md-3 p-2" id="slot-1">
+                <img src="/images/card-image.svg" alt="placeholder image">
+            </div>
+            <div class="col-md-3 p-2" id="slot-2">
+                <img src="/images/card-image.svg" alt="placeholder image">
+            </div>
+            <div class="col-md-3 p-2" id="slot-3">
+                <img src="/images/card-image.svg" alt="placeholder image">
+            </div>
+            <div class="col-md-3 p-2" id="slot-4">
+                <img src="/images/card-image.svg" alt="placeholder image">
             </div>
         </div>
-        <div class="row" id="imageGrid">
-            <!-- Images will be loaded here -->
+    </div>
+</div>
+
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-md-11">
+                <div class="my-4">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <button id="randomImagesButton" class="btn btn-primary">Select Random Images</button>
+                            <!-- Add to Cart Button -->
+                            <button id="scratchOff" class="btn btn-primary">Create Scratch Off</button>
+                        </div>
+                    </div>
+                    <div class="row" id="imageGrid">
+                        <!-- Images will be loaded here -->
+                    </div>
+                </div>
+            </div>
+            <!-- Collapsible Sidebar -->
+            <div class="col-md-1 collapse" id="sidebar">
+                <!-- Sidebar content will be added here -->
+            </div>
         </div>
     </div>
 
