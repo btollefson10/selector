@@ -131,7 +131,7 @@ function newDisplayImages(){
 }
 
 // Function to highlight selected images in the grid
-function highlightSelectedImages() {
+function highlightImages(imagePaths) {
     // Get the root URL
     let rootUrl = window.location.origin;
 
@@ -139,7 +139,7 @@ function highlightSelectedImages() {
         // Normalize the src by removing the root URL
         let normalizedSrc = img.src.replace(rootUrl, '');
 
-        if (selectedImages.includes(normalizedSrc)) {
+        if (imagePaths.includes(normalizedSrc)) {
             img.parentElement.classList.add('selected');
         }
     });
@@ -178,15 +178,16 @@ imagesMap.set('10', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/image
 function selectRandomImages() {
     let remainingSlots = 4 - selectedImagesMap.size;
     if (remainingSlots > 0) {
-        let additionalImages = getRandomItems(remainingSlots);
-        additionalImages.forEach((value, key) => {
+        let additionalImagesMap = getRandomItems(remainingSlots);
+        additionalImagesMap.forEach((value, key) => {
             if (!selectedImagesMap.has(key)) {
-                pushSelectedImages(value);
+                //pushSelectedImages(value);
                 pushSelectedImagesMap(key);
             }
         });
-        highlightSelectedImages();
-        displayImages(selectedImages);
+        imagePaths = Array.from(additionalImagesMap.values());
+        highlightImages(imagePaths);
+        displayImages(imagePaths);
     }
 }
 
