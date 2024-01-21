@@ -164,16 +164,16 @@ const images = [
 
 const imagesMap = new Map();
 
-imagesMap.set('1', '/images/1.png');
-imagesMap.set('2', '/images/2.png');
-imagesMap.set('3', '/images/3.png');
-imagesMap.set('4', '/images/4.png');
-imagesMap.set('5', '/images/5.png');
-imagesMap.set('6', '/images/6.png');
-imagesMap.set('7', '/images/7.png');
-imagesMap.set('8', '/images/8.png');
-imagesMap.set('9', '/images/9.png');
-imagesMap.set('10', '/images/10.png');
+imagesMap.set('1', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('2', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('3', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('4', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('5', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('6', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('7', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('8', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('9', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
+imagesMap.set('10', 'https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/Cover.png');
 
 function selectRandomImages() {
     let remainingSlots = 4 - selectedImagesMap.size;
