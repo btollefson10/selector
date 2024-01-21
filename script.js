@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="image-wrapper" onclick="toggleImageSelection(this)" data-key="${key}">
                 <img src="${src}" class="img-fluid" alt="Image ${key}">
                 <div class="check-overlay">   
-                    <img src="./images/check-circle-fill.svg" alt="Headline Image" class="headline-image">
+                    <img src="https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/check-circle-fill.svg" alt="Headline Image" class="headline-image">
                 </div>
             </div>
         `;
@@ -125,7 +125,7 @@ function newDisplayImages(){
     for (let slotIndex = index; slotIndex < 4; slotIndex++) {
         console.log(slotIndex);
         const slot = document.getElementById(`slot-${slotIndex+1}`);
-        slot.innerHTML = `<img src="/images/card-image.svg" alt="placeholder image">`;
+        slot.innerHTML = `<img src="https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/card-image.svg" alt="placeholder image">`;
         
     }
 }
