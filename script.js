@@ -191,9 +191,6 @@ function selectRandomImages() {
                 pushSelectedImagesMap(key);
             }
         });
-        imagePaths = Array.from(additionalImagesMap.values());
-        highlightImages(imagePaths);
-        displayImages(imagePaths);
     }
 }
 
