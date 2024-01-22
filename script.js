@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const col = document.createElement('div');
         col.className = 'col-md-3 p-2';
         col.innerHTML = `
-            <div class="image-wrapper" onclick="toggleImageSelection(this)" data-key="${key}">
+            <div class="image-wrapper" onclick="toggleImageSelection(this)" data-key="${key}">${src}
                 <img src="${src}" class="img-fluid" alt="Image ${key}">
                 <div class="check-overlay">   
                     <img src="https://s3.us-east-2.amazonaws.com/myownfairytale.com/images/check-circle-fill.svg" alt="Headline Image" class="headline-image">
