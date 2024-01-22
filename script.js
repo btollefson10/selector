@@ -1,6 +1,7 @@
 // Global variables
 const createdItems = new Map();
 const selectedImagesMap = new Map();
+try{
 
 function pushSelectedImagesMap(key){
     selectedImagesMap.set(key, imagesMap.get(key));
@@ -306,4 +307,10 @@ function toggleImageSelection(wrapper) {
 
     //displayImages(selectedImages);
     newDisplayImages();
+}
+
+
+}
+catch(e){
+alert(`Error: ${e.name} message: ${e.message}`);
 }
